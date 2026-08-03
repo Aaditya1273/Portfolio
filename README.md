@@ -1,4 +1,4 @@
-# Personal Portfolio - Full-Stack & AI Agent Engineer
+# Personal Portfolio - Web3 Full-Stack & Autonomous AI Engineer
 
 A modern, highly-polished personal portfolio website built with Next.js, React 19, and Tailwind CSS v4. Designed for performance and a premium "developer-first" aesthetic.
 
@@ -12,7 +12,7 @@ A modern, highly-polished personal portfolio website built with Next.js, React 1
 - **3D Graphics:** [Three.js](https://threejs.org/) & [React Three Fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction)
 - **Icons:** [Lucide React](https://lucide.dev/)
 - **Typography:** Instrument Sans, Instrument Serif, JetBrains Mono (via `next/font/google`)
-- **Package Manager:** [pnpm](https://pnpm.io/)
+- **Package Manager:** [npm](https://www.npmjs.com/)
 
 ## ✨ Key Features
 
@@ -23,16 +23,16 @@ A modern, highly-polished personal portfolio website built with Next.js, React 1
 
 ## 🛠️ Getting Started
 
-First, install the dependencies using pnpm (or your preferred package manager):
+First, install the dependencies using npm (or your preferred package manager):
 
 ```bash
-pnpm install
+npm install
 ```
 
 Then, run the development server:
 
 ```bash
-pnpm dev
+npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -43,6 +43,6 @@ This project is optimized for deployment on [Vercel](https://vercel.com/new).
 
 1. Push this repository to GitHub/GitLab/Bitbucket.
 2. Import the project in Vercel.
-3. Vercel will automatically detect Next.js and `pnpm`, deploying with zero-configuration needed.
+3. Vercel will automatically detect Next.js and `npm`, deploying with zero-configuration needed.
 
 *(A `vercel.json` file is also included for explicit configuration mapping).*
