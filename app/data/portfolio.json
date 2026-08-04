@@ -19,6 +19,21 @@
       "label": "X",
       "href": "https://x.com/aadityarawat",
       "icon": "x"
+    },
+    {
+      "label": "YouTube",
+      "href": "https://www.youtube.com/@Aaditya1515",
+      "icon": "youtube"
+    },
+    {
+      "label": "Telegram",
+      "href": "https://t.me/aaditya092",
+      "icon": "telegram"
+    },
+    {
+      "label": "Discord",
+      "href": "https://discord.com/users/aadi02364",
+      "icon": "discord"
     }
   ],
   "posts": [],
