@@ -103,7 +103,7 @@ Implemented scalable backend services in Go with modular APIs and containerized 
 ### National Institute of Technology Hamirpur
 **Bachelor of Technology**
 
-2024 – 2028
+2024 – Surviving
 
 ## Tech Stack
 
