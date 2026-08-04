@@ -51,9 +51,7 @@ export function ProjectsSection({
               <img
                 src={item.logo}
                 alt=""
-                className={`h-4 w-4 rounded-sm object-contain ${
-                  i === active ? "brightness-0 invert dark:brightness-100 dark:invert-0" : ""
-                }`}
+                className="h-4 w-4 object-contain dark:grayscale"
               />
             )}
             {item.name}
@@ -74,7 +72,7 @@ export function ProjectsSection({
               <img
                 src={project.logo}
                 alt={project.name}
-                className="mt-0.5 h-10 w-10 shrink-0 rounded-xl object-contain border border-gray-100 dark:border-gray-800 p-1 bg-white dark:bg-gray-900"
+                className="mt-0.5 h-10 w-10 shrink-0 object-contain dark:grayscale"
                 loading="lazy"
               />
             )}
