@@ -202,15 +202,17 @@ export default function Home() {
             <Icon name={social.icon} className="h-5 w-5" />
           </a>
         ))}
-        <a
-          href={portfolio.meta.calendarUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Calendar"
-          className="text-gray-500 dark:text-gray-300 hover:text-black dark:hover:text-white transition-colors hover:scale-110"
-        >
-          <Icon name="calendar" className="h-5 w-5" />
-        </a>
+        {portfolio.meta.calendarUrl && (
+          <a
+            href={portfolio.meta.calendarUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Calendar"
+            className="text-gray-500 dark:text-gray-300 hover:text-black dark:hover:text-white transition-colors hover:scale-110"
+          >
+            <Icon name="calendar" className="h-5 w-5" />
+          </a>
+        )}
       </motion.nav>
 
       {/* QR Code Modal */}

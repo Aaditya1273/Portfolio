@@ -7,22 +7,17 @@
   "socials": [
     {
       "label": "GitHub",
-      "href": "https://github.com/aadityarawat",
+      "href": "https://github.com/Aaditya1273",
       "icon": "github"
     },
     {
       "label": "X",
-      "href": "https://x.com/aadityarawat",
+      "href": "https://x.com/iocryposto1273",
       "icon": "x"
     },
     {
-      "label": "Medium",
-      "href": "https://medium.com/@iocryp05",
-      "icon": "medium"
-    },
-    {
       "label": "LinkedIn",
-      "href": "https://www.linkedin.com/in/aadityarawat/",
+      "href": "https://www.linkedin.com/in/aditya-rawat-84970b301",
       "icon": "linkedin"
     },
     {
@@ -31,13 +26,18 @@
       "icon": "youtube"
     },
     {
+      "label": "Medium",
+      "href": "https://medium.com/@iocryp05",
+      "icon": "medium"
+    },
+    {
       "label": "Telegram",
       "href": "https://t.me/aaditya092",
       "icon": "telegram"
     },
     {
       "label": "Discord",
-      "href": "https://discord.com/users/aadi02364",
+      "href": "https://discord.com/channels/@me/1437302081345032195",
       "icon": "discord"
     }
   ],
@@ -47,70 +47,64 @@
       "type": "hero",
       "data": {
         "name": "Aaditya Rawat",
-        "phonetic": "/\u0251\u02d0\u02c8d\u026atj\u0259 \u02c8r\u0251\u02d0w\u0259t/",
+        "phonetic": "/ɑːˈdɪtjə ˈrɑːwət/",
         "noun": "noun",
         "timezone": {
           "label": "IST",
           "tz": "Asia/Kolkata"
         },
         "intro": [
-          "a **Full-Stack & AI Agent Engineer** who ships production software rather than solving isolated puzzles.",
-          "experienced in building **Web3 & blockchain infrastructure**, autonomous DeFi protocols, and AI agent tooling."
+          "**Web3 Protocol Engineer | AI Systems Builder | Security Researcher**.",
+          "I build production-grade AI systems and Web3 infrastructure. My work focuses on autonomous agents, DeFi protocols, Solidity & Move smart contracts, and modern full-stack applications."
         ]
       }
     },
     {
-      "type": "openSource",
-      "title": "Open Source & Contributions",
+      "type": "experience",
+      "title": "Experience & Open Source",
       "data": {
-        "items": [
-          {
-            "name": "Metasploit Framework",
-            "role": "Open-Source Contributor",
-            "period": "Oct 2025 – Present",
-            "location": "Remote",
-            "link": "https://github.com/rapid7/metasploit-framework",
-            "tags": ["Ruby", "Network Protocols", "RPC", "Security"],
-            "prs": 3,
-            "body": [
-              "Contributed production-quality improvements to the Rapid7 Metasploit Framework, enhancing network protocol handling, RPC services, and framework maintainability.",
-              "Developed unit tests and merged multiple pull requests into the production open-source codebase."
-            ]
-          },
+        "featured": {
+          "name": "Rapid7 Metasploit Framework",
+          "role": "Open Source Contributor",
+          "location": "Remote",
+          "dateRange": "Oct 2025 – Present",
+          "link": "https://github.com/rapid7/metasploit-framework",
+          "body": [
+            "Contributed production-quality improvements to the Metasploit Framework, enhancing network protocol handling, RPC services, and framework maintainability.",
+            "Developed unit tests and successfully merged multiple pull requests into the production open-source codebase including fixes for msfrpcd JSON-RPC SSL certificate checks and MS SQL Server 2022 stored procedure execution errors."
+          ]
+        },
+        "previousLabel": "Other Contributions & Experience",
+        "previous": [
           {
             "name": "Django CMS",
-            "role": "Open-Source Contributor",
-            "period": "Oct 2025 – Dec 2025",
+            "role": "Open Source Contributor",
             "location": "Remote",
-            "link": "https://github.com/django-cms/django-cms",
-            "tags": ["Python", "Django", "Testing", "Middleware", "Hacktoberfest"],
-            "prs": 2,
+            "dateRange": "Oct 2025 – Dec 2025",
+            "link": "https://github.com/django-cms/django-cms/pull/8412",
             "body": [
-              "Hacktoberfest participant contributing to one of the largest Python CMS projects.",
-              "Developed integration and regression tests to ensure reliable middleware behavior and long-term framework stability."
+              "Developed comprehensive integration and regression tests to ensure reliable middleware behavior and long-term framework stability.",
+              "Co-authored core fix/feature for django-cms ecosystem (earned Pair Extraordinaire)."
             ]
           },
           {
-            "name": "Open-Source Misc",
-            "role": "Contributor",
-            "period": "2025",
+            "name": "Various Projects (Python, Typescript)",
+            "role": "Open Source Contributor",
             "location": "Remote",
-            "tags": ["Python", "Solidity", "TypeScript"],
-            "prs": 3,
+            "dateRange": "Oct 2025",
             "body": [
-              "Merged 3 pull requests across projects spanning Python, Solidity, and TypeScript ecosystems.",
+              "Merged 3 pull requests across open-source projects involving Python, Solidity, and TypeScript ecosystems during Hacktoberfest.",
               "Contributed 500+ lines of code including real-time network protocol handling and blockchain contract version-history retrieval features."
             ]
           },
           {
-            "name": ".EXE Technical Club",
+            "name": ".EXE Technical Club, NIT Hamirpur",
             "role": "Volunteer",
-            "period": "2024 – Present",
-            "location": "NIT Hamirpur",
-            "tags": ["Cybersecurity", "Community", "NIT Hamirpur"],
+            "location": "Hamirpur, Himachal Pradesh",
+            "dateRange": "Jan 2025 – Dec 2025",
             "body": [
-              "Contributed to initiatives that helped the club win the **Best Technical Club** award at Nimbus 2025.",
-              "Collaborated on a cybersecurity project with fellow club members."
+              "Contributed to initiatives that helped the club secure the Best Technical Club award at Nimbus 2025.",
+              "Collaborated on a CyberSecurity Project with the technical club members."
             ]
           }
         ]
@@ -125,119 +119,122 @@
             "name": "Languages",
             "skills": [
               { "name": "Python", "slug": "python" },
-              { "name": "Go", "slug": "go" },
+              { "name": "C", "slug": "c" },
               { "name": "TypeScript", "slug": "typescript" },
               { "name": "JavaScript", "slug": "javascript" },
-              { "name": "Solidity", "slug": "solidity" }
-            ]
-          },
-          {
-            "name": "AI & Agents",
-            "skills": [
-              { "name": "LLM Engineering", "slug": "openai" },
-              { "name": "Multi-Agent Systems", "slug": "langchain" },
-              { "name": "n8n Automation", "slug": "n8n" }
-            ]
-          },
-          {
-            "name": "Web3 & Blockchain",
-            "skills": [
-              { "name": "Ethereum", "slug": "ethereum" },
-              { "name": "Chainlink", "slug": "chainlink" },
-              { "name": "MetaMask", "slug": "metamask" }
-            ]
-          },
-          {
-            "name": "Backend & Cloud",
-            "skills": [
-              { "name": "Node.js", "slug": "nodedotjs" },
-              { "name": "FastAPI", "slug": "fastapi" },
-              { "name": "Docker", "slug": "docker" },
-              { "name": "Google Cloud", "slug": "googlecloud" }
+              { "name": "Go", "slug": "go" }
             ]
           },
           {
             "name": "Frontend",
             "skills": [
-              { "name": "Next.js", "slug": "nextdotjs" },
               { "name": "React", "slug": "react" },
-              { "name": "Tailwind CSS", "slug": "tailwindcss" }
+              { "name": "Next.js", "slug": "nextdotjs" },
+              { "name": "Tailwind", "slug": "tailwindcss" },
+              { "name": "HTML", "slug": "html5" },
+              { "name": "Figma", "slug": "figma" },
+              { "name": "Google Stitch", "slug": "stitch" }
+
+            ]
+          },
+          {
+            "name": "Backend",
+            "skills": [
+              { "name": "Node.js", "slug": "nodedotjs" },
+              { "name": "Express", "slug": "express" },
+              { "name": "Django", "slug": "django" },
+              { "name": "Bun", "slug": "bun" },
+              { "name": "FastAPI", "slug": "fastapi" }
             ]
           },
           {
             "name": "Databases",
             "skills": [
               { "name": "PostgreSQL", "slug": "postgresql" },
-              { "name": "MongoDB", "slug": "mongodb" },
               { "name": "Supabase", "slug": "supabase" },
+              { "name": "MongoDB", "slug": "mongodb" },
+              { "name": "MySQL", "slug": "mysql" },
+              { "name": "SQLite", "slug": "sqlite" },
               { "name": "Redis", "slug": "redis" }
+            ]
+          },
+          {
+            "name": "Blockchain / Web3",
+            "skills": [
+              { "name": "Solidity", "slug": "solidity" },
+              { "name": "Ethereum", "slug": "ethereum" },
+              { "name": "Flow", "slug": "flow" },
+              { "name": "Chainlnk", "slug": "chainlink" },
+              { "name": "MetaMask SDK", "slug": "metamask" },
+              { "name": "Sui", "slug": "sui" },
+              { "name": "Move", "slug": "move" }
+            ]
+          },
+          {
+            "name": "DevOps & Infra",
+            "skills": [
+              { "name": "Docker", "slug": "docker" },
+              { "name": "Linux", "slug": "linux" },
+              { "name": "Git", "slug": "git" },
+              { "name": "GitHub", "slug": "github" },
+              { "name": "Antigravity", "slug": "antigravity" },
+              { "name": "Cursor", "slug": "cursor" }
             ]
           }
         ]
       }
     },
     {
-      "type": "projects",
-      "title": "Projects",
+      "type": "experience",
+      "title": "Featured Systems & Web3 Protocols",
       "data": {
-        "items": [
+        "previous": [
           {
             "name": "Flow Sentinel",
-            "logo": "/logos/flow-sentinel.png",
-            "subtitle": "Autonomous DeFi Yield Protocol",
+            "role": "Autonomous DeFi Yield Protocol",
+            "dateRange": "Live Product",
             "link": "https://flow-sentinel.netlify.app",
-            "tags": ["Cadence", "Flow Blockchain", "DeFi", "Solidity", "DoraHacks"],
+            "secondaryLink": {
+              "url": "https://flow.com/post/from-the-himalayas-to-rebuilding-trust-in-defi-the-story-behind-flow-sentinel",
+              "label": "Flow Official Blog"
+            },
             "body": [
               "Built and deployed an autonomous DeFi yield protocol on Flow blockchain enabling self-managed vaults with liquid staking, yield farming, and arbitrage strategies.",
               "Engineered a 4-layer MEV protection framework combining commit-reveal execution, VRF-randomized delays, price-deviation guards, and execution-queue randomization.",
               "Authored 9 production-grade Cadence smart contracts with secure vault architecture, oracle-integrated analytics, and dual wallet support (Flow Wallet & MetaMask).",
-              "Selected for the Flow Grant DAO on DoraHacks, securing $300 in funding (10,000 $FLOW) from Flow Blockchain."
-            ],
-            "stats": [
-              { "value": "$300", "label": "Grant received" },
-              { "value": "9", "label": "Smart contracts" },
-              { "value": "4-layer", "label": "MEV protection" },
-              { "value": "Top 5", "label": "DoraHacks ranking" }
+              "Selected for the Flow Grant DAO on DoraHacks, securing $300 in funding (10,000 $FLOW) from Flow Blockchain to develop the protocol into a production-ready decentralized application.",
+              "Featured in Flow Blockchain's Official Blog: [From the Himalayas to Rebuilding Trust in DeFi: The Story Behind Flow Sentinel](https://flow.com/post/from-the-himalayas-to-rebuilding-trust-in-defi-the-story-behind-flow-sentinel)"
             ]
           },
           {
             "name": "AgentMD",
-            "logo": "/logos/agent.md.png",
-            "subtitle": "AI Engineering Preset Platform",
+            "role": "AI Engineering Preset Platform",
+            "dateRange": "Live Product",
             "link": "https://agent-dot-md.netlify.app",
-            "tags": ["AI Agents", "VS Code", "Cursor", "Kiro", "CLI", "TypeScript"],
             "body": [
               "Built an AI engineering platform offering 150+ production-ready presets across 19 categories, standardizing AI engineering workflows for development teams.",
               "Developed a cross-editor extension for VS Code, Cursor, and Kiro with preset discovery, live preview, one-click installation, and automatic project-stack detection.",
               "Engineered a zero-setup NPX CLI for installing individual presets or full categories directly into any developer project.",
               "Designed a modular architecture supporting extensible preset registries, AI workflow automation, and frictionless developer onboarding."
-            ],
-            "stats": [
-              { "value": "150+", "label": "Presets" },
-              { "value": "19", "label": "Categories" },
-              { "value": "3", "label": "Editors supported" },
-              { "value": "0", "label": "Setup steps (NPX)" }
             ]
           },
           {
             "name": "GhostPay",
-            "logo": "/logos/ghostpay.png",
-            "subtitle": "Privacy-First Web3 Payment Platform",
+            "role": "Privacy-First Web3 Payment Platform",
+            "dateRange": "Live Product",
             "link": "https://ghost-pay-deepsurge.vercel.app",
-            "tags": ["Sui SDK", "Web3", "Google OAuth", "Walrus", "TypeScript"],
             "body": [
               "Built a privacy-first Web3 payment platform enabling seamless digital payments through embedded wallets and gasless onboarding.",
-              "Integrated Google OAuth, the Sui SDK, and mysten/dapp-kit with secure wallet abstraction to simplify Web3 onboarding for non-crypto-native users.",
+              "Integrated Google OAuth, the Sui SDK, and mysten/dapp-kit with secure wallet abstraction to simplify Web3 onboarding for non crypto-native users.",
               "Implemented decentralized document storage using Walrus alongside secure payment workflows and identity verification.",
               "Designed modular payment infrastructure supporting programmable transactions, AI-agent integrations, and scalable Web3 commerce."
             ]
           },
           {
             "name": "Argus",
-            "logo": "/logos/argus.png",
-            "subtitle": "Blockchain Observability & Security Platform",
+            "role": "Blockchain Observability & Security Platform",
+            "dateRange": "Live Product",
             "link": "https://argus-signoz.netlify.app",
-            "tags": ["Go", "SigNoz", "Blockchain", "Docker", "Security"],
             "body": [
               "Built a blockchain observability and security platform for real-time monitoring of smart contract execution.",
               "Developed transaction-analysis pipelines to detect anomalous behavior, exploit patterns, and security risks on-chain.",
@@ -246,6 +243,55 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "type": "youtube",
+      "title": "My YouTube Channel",
+      "data": {
+        "image": "/youtube-avatar.jpg",
+        "logo": "/youtube-avatar.jpg",
+        "name": "Aaditya Rawat",
+        "url": "https://www.youtube.com/@Aaditya1515",
+        "tagline": "Web3 Protocol Engineer & AI Systems Builder",
+        "community": {
+          "url": "https://discord.com/channels/@me/1437302081345032195",
+          "count": "Join",
+          "text": "Discord"
+        },
+        "videos": [
+          {
+            "title": "Argus",
+            "url": "https://youtu.be/T6SVtA2C4MM"
+          },
+          {
+            "title": "HALO",
+            "url": "https://youtu.be/vzoxDa2lrCM"
+          },
+          {
+            "title": "Glasspay",
+            "url": "https://youtu.be/pLbmrv47Lc4"
+          },
+          {
+            "title": "Ghostpay",
+            "url": "https://youtu.be/p7RiZ__XgwU"
+          },
+          {
+            "title": "Shadow-stake-sage",
+            "url": "https://youtu.be/kZa8QvnBJ08?si=AAu4pJjdcLcFZG3m"
+          }
+        ],
+        "footerLink": {
+          "url": "https://www.youtube.com/@Aaditya1515",
+          "label": "Visit Channel"
+        }
+      }
+    },
+    {
+      "type": "github",
+      "title": "GitHub Activity",
+      "data": {
+        "username": "Aaditya1273"
       }
     },
     {
@@ -259,8 +305,8 @@
             "list": [
               "**Winner, HackEMinds 2025**; Top 10, PL Genesis: Frontiers Hackathon; 3rd Place, Hack for Hope; 4th Place, PortXFolio Hackathon.",
               "Won **$575 (Dual-Track Award)** at the MetaMask & Solana Hackathon, including 3rd Place in the Tokenization of Real-World Assets & Digital Identity track.",
-              "**Top 5 Team**, Flow Grant DAO (DoraHacks) \u2014 received $300 (10,000 $FLOW) in funding from Flow Blockchain for Flow Sentinel.",
-              "**Top 8 Team**, OneHack 2025 (DoraHacks) \u2014 secured a $1,000 grant from OneChain for a tokenized Real-World Asset marketplace.",
+              "**Top 5 Team**, Flow Grant DAO (DoraHacks) — received $300 (10,000 $FLOW) in funding from Flow Blockchain for Flow Sentinel.",
+              "**Top 8 Team**, OneHack 2025 (DoraHacks) — secured a $1,000 grant from OneChain for a tokenized Real-World Asset marketplace.",
               "Built the backend (Node.js, Express.js) for Paradox Nimbus, a picture-to-word guessing game played by 200+ students at NIT Hamirpur's annual tech fest."
             ]
           }
@@ -274,9 +320,10 @@
         "items": [
           {
             "title": "National Institute of Technology Hamirpur",
+            "logo": "/logo/image.png",
             "role": "Bachelor of Technology",
             "body": [
-              "2024 \u2013 2028"
+              "2024 – 2028"
             ]
           }
         ]

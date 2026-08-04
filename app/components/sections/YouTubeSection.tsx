@@ -21,7 +21,7 @@ export interface YouTubeData {
 }
 
 function getYouTubeId(url: string): string | null {
-  const match = url.match(/[?&]v=([^&]+)/);
+  const match = url.match(/(?:youtu\.be\/|v=)([^&?]+)/);
   return match ? match[1] : null;
 }
 
@@ -85,6 +85,7 @@ export function YouTubeSection({ title, data }: { title: string; data: YouTubeDa
                       src={thumbnail}
                       alt={video.title}
                       fill
+                      unoptimized={true}
                       sizes="(max-width: 640px) 50vw, 33vw"
                       className="object-cover transition-transform duration-300 group-hover:scale-105"
                     />

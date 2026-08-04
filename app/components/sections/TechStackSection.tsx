@@ -19,10 +19,27 @@ export interface TechStackData {
   categories: SkillCategory[];
 }
 
-/** Brand-colored icon in light mode, white in dark mode (dark logos are
- *  invisible on a dark background). Both variants come from the same CDN;
- *  the hidden one stays unfetched thanks to lazy loading. */
+const customIcons: Record<string, string> = {
+  stitch: "/logo/stitich-google.png",
+  flow: "/logo/flow.png",
+  metamask: "/logo/metamask.png",
+  sui: "/logo/sui.png",
+  antigravity: "/logo/antigraavity.png",
+  move: "/logo/move.png"
+};
+
 function TechIcon({ slug, name, className }: { slug: string; name: string; className: string }) {
+  if (customIcons[slug]) {
+    return (
+      <img
+        src={customIcons[slug]}
+        alt={name}
+        className={`${className} dark:grayscale`}
+        loading="lazy"
+      />
+    );
+  }
+
   return (
     <>
       {/* eslint-disable-next-line @next/next/no-img-element */}

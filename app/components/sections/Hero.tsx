@@ -1,6 +1,8 @@
 import Image from "next/image";
 import { Inline } from "../RichText";
 
+import LunarGravityCard from "../ui/lunar-gravity-card";
+
 export interface HeroData {
   image: string;
   name: string;
@@ -13,18 +15,13 @@ export interface HeroData {
 
 export function Hero({ data, time }: { data: HeroData; time: string }) {
   return (
-    <>
-      {/* Profile Image */}
-      <div className="relative mb-2 h-40 w-40 sm:h-56 sm:w-56 overflow-hidden">
-        <Image
-          src={data.image}
-          alt="Profile"
-          fill
-          sizes="(max-width: 640px) 160px, 224px"
-          className="object-contain grayscale"
-          priority
-        />
-        <div className="absolute bottom-0 left-0 right-0 h-12 bg-gradient-to-t from-white via-white/60 to-transparent dark:from-black dark:via-black/60 backdrop-blur-[1px]" />
+    <div className="flex flex-col items-center justify-center text-center">
+      {/* 3D Planet */}
+      <div className="relative mb-6 flex h-48 w-48 items-center justify-center overflow-visible sm:h-64 sm:w-64">
+        {/* We make the canvas container much wider to fit the rings horizontally without cropping */}
+        <div className="absolute z-0 h-[150%] w-[300%] -left-[100%] -top-[25%] pointer-events-auto">
+          <LunarGravityCard className="h-full w-full min-h-[100px]" />
+        </div>
       </div>
 
       {/* Hero Text */}
@@ -51,6 +48,6 @@ export function Hero({ data, time }: { data: HeroData; time: string }) {
           </p>
         ))}
       </div>
-    </>
+    </div>
   );
 }

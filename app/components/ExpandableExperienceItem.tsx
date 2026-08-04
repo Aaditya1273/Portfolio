@@ -10,9 +10,10 @@ interface ExpandableExperienceItemProps {
     children: React.ReactNode;
     link?: string;
     logo?: string;
+    secondaryLink?: { url: string; label: string };
 }
 
-export function ExpandableExperienceItem({ title, role, location, children, link, logo }: ExpandableExperienceItemProps) {
+export function ExpandableExperienceItem({ title, role, location, children, link, logo, secondaryLink }: ExpandableExperienceItemProps) {
     const [open, setOpen] = useState(false);
 
     return (
@@ -41,10 +42,24 @@ export function ExpandableExperienceItem({ title, role, location, children, link
                             target="_blank"
                             rel="noopener noreferrer"
                             onClick={(e) => e.stopPropagation()}
-                            className="text-xs text-gray-400 dark:text-gray-500 underline underline-offset-2 hover:text-black dark:hover:text-white"
+                            className="text-xs text-gray-400 dark:text-gray-500 underline underline-offset-2 hover:text-black dark:hover:text-white transition-colors"
                         >
                             link
                         </a>
+                    )}
+                    {secondaryLink && (
+                        <>
+                            <span className="text-gray-300 dark:text-gray-700 text-xs px-1">•</span>
+                            <a
+                                href={secondaryLink.url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                onClick={(e) => e.stopPropagation()}
+                                className="text-xs text-gray-400 dark:text-gray-500 underline underline-offset-2 hover:text-black dark:hover:text-white transition-colors"
+                            >
+                                {secondaryLink.label}
+                            </a>
+                        </>
                     )}
                 </div>
                 <ChevronDown
