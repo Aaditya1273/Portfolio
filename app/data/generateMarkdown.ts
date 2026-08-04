@@ -45,10 +45,11 @@ export function generateMarkdown(data: PortfolioData, time: string): string {
   if (experience) {
     const { featured, previous } = experience.data;
     const entry = (e: typeof featured) => {
+      if (!e) return "";
       const meta = e.dateRange ? `*${e.dateRange}*` : e.link ? `[${e.link}](${e.link})` : "";
       return `### ${e.name}\n**${e.role}**${meta ? `\n${meta}` : ""}\n\n${blocks(e.body)}`;
     };
-    parts.push(`## ${experience.title}\n\n${[featured, ...previous].map(entry).join("\n\n")}`);
+    parts.push(`## ${experience.title}\n\n${[featured, ...previous].map(entry).filter(Boolean).join("\n\n")}`);
   }
 
   // In Between These Experiences (and any other narrative card)
