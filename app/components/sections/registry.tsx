@@ -2,6 +2,7 @@ import type { PortfolioMeta, Social } from "../types";
 
 import { Hero, type HeroData } from "./Hero";
 import { ExperienceSection, type ExperienceData } from "./ExperienceSection";
+import { OpenSourceSection, type OpenSourceData } from "./OpenSourceSection";
 import { TechStackSection, type TechStackData } from "./TechStackSection";
 import { ExpandableCardSection, type ExpandableCardData } from "./ExpandableCardSection";
 import { ProjectSection, type ProjectData } from "./ProjectSection";
@@ -24,6 +25,7 @@ import { PodcastSection, type PodcastData } from "./PodcastSection";
 export type Section =
   | { type: "hero"; data: HeroData }
   | { type: "experience"; title: string; data: ExperienceData }
+  | { type: "openSource"; title: string; data: OpenSourceData }
   | { type: "techStack"; title: string; data: TechStackData }
   | { type: "expandableCard"; title: string; data: ExpandableCardData }
   | { type: "project"; title: string; data: ProjectData }
@@ -57,6 +59,8 @@ export function SectionRenderer({ section, ctx }: { section: Section; ctx: Secti
       return <Hero data={section.data} time={ctx.time} />;
     case "experience":
       return <ExperienceSection title={section.title} data={section.data} />;
+    case "openSource":
+      return <OpenSourceSection title={section.title} data={section.data} />;
     case "techStack":
       return <TechStackSection title={section.title} data={section.data} />;
     case "expandableCard":
