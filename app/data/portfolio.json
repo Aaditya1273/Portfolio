@@ -11,14 +11,19 @@
       "icon": "github"
     },
     {
-      "label": "LinkedIn",
-      "href": "https://www.linkedin.com/in/aadityarawat/",
-      "icon": "linkedin"
-    },
-    {
       "label": "X",
       "href": "https://x.com/aadityarawat",
       "icon": "x"
+    },
+    {
+      "label": "Medium",
+      "href": "https://medium.com/@iocryp05",
+      "icon": "medium"
+    },
+    {
+      "label": "LinkedIn",
+      "href": "https://www.linkedin.com/in/aadityarawat/",
+      "icon": "linkedin"
     },
     {
       "label": "YouTube",
@@ -161,62 +166,70 @@
       }
     },
     {
-      "type": "project",
-      "title": "Flow Sentinel",
+      "type": "projects",
+      "title": "Projects",
       "data": {
-        "name": "Flow Sentinel",
-        "link": "https://flow-sentinel.netlify.app",
-        "subtitle": "Autonomous DeFi Yield Protocol",
-        "body": [
-          "Built and deployed an autonomous DeFi yield protocol on Flow blockchain enabling self-managed vaults with liquid staking, yield farming, and arbitrage strategies.",
-          "Engineered a 4-layer MEV protection framework combining commit-reveal execution, VRF-randomized delays, price-deviation guards, and execution-queue randomization.",
-          "Authored 9 production-grade Cadence smart contracts with secure vault architecture, oracle-integrated analytics, and dual wallet support (Flow Wallet & MetaMask).",
-          "Selected for the Flow Grant DAO on DoraHacks, securing $300 in funding (10,000 $FLOW) from Flow Blockchain to develop the protocol into a production-ready decentralized application."
-        ]
-      }
-    },
-    {
-      "type": "project",
-      "title": "AgentMD",
-      "data": {
-        "name": "AgentMD",
-        "link": "https://agent-dot-md.netlify.app",
-        "subtitle": "AI Engineering Preset Platform",
-        "body": [
-          "Built an AI engineering platform offering 150+ production-ready presets across 19 categories, standardizing AI engineering workflows for development teams.",
-          "Developed a cross-editor extension for VS Code, Cursor, and Kiro with preset discovery, live preview, one-click installation, and automatic project-stack detection.",
-          "Engineered a zero-setup NPX CLI for installing individual presets or full categories directly into any developer project.",
-          "Designed a modular architecture supporting extensible preset registries, AI workflow automation, and frictionless developer onboarding."
-        ]
-      }
-    },
-    {
-      "type": "project",
-      "title": "GhostPay",
-      "data": {
-        "name": "GhostPay",
-        "link": "https://ghost-pay-deepsurge.vercel.app",
-        "subtitle": "Privacy-First Web3 Payment Platform",
-        "body": [
-          "Built a privacy-first Web3 payment platform enabling seamless digital payments through embedded wallets and gasless onboarding.",
-          "Integrated Google OAuth, the Sui SDK, and mysten/dapp-kit with secure wallet abstraction to simplify Web3 onboarding for non-crypto-native users.",
-          "Implemented decentralized document storage using Walrus alongside secure payment workflows and identity verification.",
-          "Designed modular payment infrastructure supporting programmable transactions, AI-agent integrations, and scalable Web3 commerce."
-        ]
-      }
-    },
-    {
-      "type": "project",
-      "title": "Argus",
-      "data": {
-        "name": "Argus",
-        "link": "https://argus-signoz.netlify.app",
-        "subtitle": "Blockchain Observability & Security Platform",
-        "body": [
-          "Built a blockchain observability and security platform for real-time monitoring of smart contract execution.",
-          "Developed transaction-analysis pipelines to detect anomalous behavior, exploit patterns, and security risks on-chain.",
-          "Integrated SigNoz for distributed tracing, metrics collection, and operational monitoring across blockchain services.",
-          "Implemented scalable backend services in Go with modular APIs and containerized deployment."
+        "items": [
+          {
+            "name": "Flow Sentinel",
+            "subtitle": "Autonomous DeFi Yield Protocol",
+            "link": "https://flow-sentinel.netlify.app",
+            "tags": ["Cadence", "Flow Blockchain", "DeFi", "Solidity", "DoraHacks"],
+            "body": [
+              "Built and deployed an autonomous DeFi yield protocol on Flow blockchain enabling self-managed vaults with liquid staking, yield farming, and arbitrage strategies.",
+              "Engineered a 4-layer MEV protection framework combining commit-reveal execution, VRF-randomized delays, price-deviation guards, and execution-queue randomization.",
+              "Authored 9 production-grade Cadence smart contracts with secure vault architecture, oracle-integrated analytics, and dual wallet support (Flow Wallet & MetaMask).",
+              "Selected for the Flow Grant DAO on DoraHacks, securing $300 in funding (10,000 $FLOW) from Flow Blockchain."
+            ],
+            "stats": [
+              { "value": "$300", "label": "Grant received" },
+              { "value": "9", "label": "Smart contracts" },
+              { "value": "4-layer", "label": "MEV protection" },
+              { "value": "Top 5", "label": "DoraHacks ranking" }
+            ]
+          },
+          {
+            "name": "AgentMD",
+            "subtitle": "AI Engineering Preset Platform",
+            "link": "https://agent-dot-md.netlify.app",
+            "tags": ["AI Agents", "VS Code", "Cursor", "Kiro", "CLI", "TypeScript"],
+            "body": [
+              "Built an AI engineering platform offering 150+ production-ready presets across 19 categories, standardizing AI engineering workflows for development teams.",
+              "Developed a cross-editor extension for VS Code, Cursor, and Kiro with preset discovery, live preview, one-click installation, and automatic project-stack detection.",
+              "Engineered a zero-setup NPX CLI for installing individual presets or full categories directly into any developer project.",
+              "Designed a modular architecture supporting extensible preset registries, AI workflow automation, and frictionless developer onboarding."
+            ],
+            "stats": [
+              { "value": "150+", "label": "Presets" },
+              { "value": "19", "label": "Categories" },
+              { "value": "3", "label": "Editors supported" },
+              { "value": "0", "label": "Setup steps (NPX)" }
+            ]
+          },
+          {
+            "name": "GhostPay",
+            "subtitle": "Privacy-First Web3 Payment Platform",
+            "link": "https://ghost-pay-deepsurge.vercel.app",
+            "tags": ["Sui SDK", "Web3", "Google OAuth", "Walrus", "TypeScript"],
+            "body": [
+              "Built a privacy-first Web3 payment platform enabling seamless digital payments through embedded wallets and gasless onboarding.",
+              "Integrated Google OAuth, the Sui SDK, and mysten/dapp-kit with secure wallet abstraction to simplify Web3 onboarding for non-crypto-native users.",
+              "Implemented decentralized document storage using Walrus alongside secure payment workflows and identity verification.",
+              "Designed modular payment infrastructure supporting programmable transactions, AI-agent integrations, and scalable Web3 commerce."
+            ]
+          },
+          {
+            "name": "Argus",
+            "subtitle": "Blockchain Observability & Security Platform",
+            "link": "https://argus-signoz.netlify.app",
+            "tags": ["Go", "SigNoz", "Blockchain", "Docker", "Security"],
+            "body": [
+              "Built a blockchain observability and security platform for real-time monitoring of smart contract execution.",
+              "Developed transaction-analysis pipelines to detect anomalous behavior, exploit patterns, and security risks on-chain.",
+              "Integrated SigNoz for distributed tracing, metrics collection, and operational monitoring across blockchain services.",
+              "Implemented scalable backend services in Go with modular APIs and containerized deployment."
+            ]
+          }
         ]
       }
     },

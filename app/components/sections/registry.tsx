@@ -5,6 +5,7 @@ import { ExperienceSection, type ExperienceData } from "./ExperienceSection";
 import { TechStackSection, type TechStackData } from "./TechStackSection";
 import { ExpandableCardSection, type ExpandableCardData } from "./ExpandableCardSection";
 import { ProjectSection, type ProjectData } from "./ProjectSection";
+import { ProjectsSection, type ProjectsData } from "./ProjectsSection";
 import { YouTubeSection, type YouTubeData } from "./YouTubeSection";
 import { EducationSection, type EducationData } from "./EducationSection";
 import { GithubSection, type GithubData } from "./GithubSection";
@@ -26,6 +27,7 @@ export type Section =
   | { type: "techStack"; title: string; data: TechStackData }
   | { type: "expandableCard"; title: string; data: ExpandableCardData }
   | { type: "project"; title: string; data: ProjectData }
+  | { type: "projects"; title: string; data: ProjectsData }
   | { type: "youtube"; title: string; data: YouTubeData }
   | { type: "education"; title: string; data: EducationData }
   | { type: "github"; title: string; data: GithubData }
@@ -61,6 +63,8 @@ export function SectionRenderer({ section, ctx }: { section: Section; ctx: Secti
       return <ExpandableCardSection title={section.title} data={section.data} />;
     case "project":
       return <ProjectSection title={section.title} data={section.data} />;
+    case "projects":
+      return <ProjectsSection title={section.title} data={section.data} />;
     case "youtube":
       return <YouTubeSection title={section.title} data={section.data} />;
     case "education":
