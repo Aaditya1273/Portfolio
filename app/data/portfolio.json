@@ -1,0 +1,260 @@
+{
+  "meta": {
+    "siteUrl": "https://just-aaditya.vercel.app/",
+    "calendarUrl": "",
+    "email": "aadityaofficial1515@gmail.com"
+  },
+  "socials": [
+    {
+      "label": "GitHub",
+      "href": "https://github.com/aadityarawat",
+      "icon": "github"
+    },
+    {
+      "label": "LinkedIn",
+      "href": "https://www.linkedin.com/in/aadityarawat/",
+      "icon": "linkedin"
+    },
+    {
+      "label": "X",
+      "href": "https://x.com/aadityarawat",
+      "icon": "x"
+    }
+  ],
+  "posts": [],
+  "sections": [
+    {
+      "type": "hero",
+      "data": {
+        "name": "Aaditya Rawat",
+        "phonetic": "/\u0251\u02d0\u02c8d\u026atj\u0259 \u02c8r\u0251\u02d0w\u0259t/",
+        "noun": "noun",
+        "timezone": {
+          "label": "IST",
+          "tz": "Asia/Kolkata"
+        },
+        "intro": [
+          "a **Full-Stack & AI Agent Engineer** who ships production software rather than solving isolated puzzles.",
+          "experienced in building **Web3 & blockchain infrastructure**, autonomous DeFi protocols, and AI agent tooling."
+        ]
+      }
+    },
+    {
+      "type": "experience",
+      "title": "Experience & Open Source",
+      "data": {
+        "featured": {
+          "name": "Rapid7 Metasploit Framework",
+          "role": "Open-Source Contributor, Remote",
+          "dateRange": "Oct 2025 - Present",
+          "collapsedHeight": "max-h-48",
+          "body": [
+            "Contributed production-quality improvements to the Metasploit Framework, enhancing network protocol handling, RPC services, and framework maintainability.",
+            "Developed unit tests and merged multiple pull requests into the production open-source codebase."
+          ]
+        },
+        "previousLabel": "Other Experience",
+        "previous": [
+          {
+            "name": "Django CMS",
+            "role": "Open-Source Contributor",
+            "location": "Remote",
+            "body": [
+              "Hacktoberfest participant (Oct 2025 \u2013 Dec 2025).",
+              "Developed integration and regression tests to ensure reliable middleware behavior and long-term framework stability."
+            ]
+          },
+          {
+            "name": "Various Open-Source Projects",
+            "role": "Contributor",
+            "location": "Remote",
+            "body": [
+              "Merged 3 pull requests across open-source projects spanning Python, Solidity, and TypeScript ecosystems.",
+              "Contributed 500+ lines of code, including real-time network protocol handling and blockchain contract version-history retrieval features."
+            ]
+          },
+          {
+            "name": ".EXE Technical Club",
+            "role": "Volunteer",
+            "location": "NIT Hamirpur",
+            "body": [
+              "Contributed to initiatives that helped the club win the Best Technical Club award at Nimbus 2025.",
+              "Collaborated on a cybersecurity project with fellow club members."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "techStack",
+      "title": "Technical Skills",
+      "data": {
+        "categories": [
+          {
+            "name": "Languages",
+            "skills": [
+              { "name": "Python", "slug": "python" },
+              { "name": "Go", "slug": "go" },
+              { "name": "TypeScript", "slug": "typescript" },
+              { "name": "JavaScript", "slug": "javascript" },
+              { "name": "Solidity", "slug": "solidity" }
+            ]
+          },
+          {
+            "name": "AI & Agents",
+            "skills": [
+              { "name": "LLM Engineering", "slug": "openai" },
+              { "name": "Multi-Agent Systems", "slug": "langchain" },
+              { "name": "n8n Automation", "slug": "n8n" }
+            ]
+          },
+          {
+            "name": "Web3 & Blockchain",
+            "skills": [
+              { "name": "Ethereum", "slug": "ethereum" },
+              { "name": "Chainlink", "slug": "chainlink" },
+              { "name": "MetaMask", "slug": "metamask" }
+            ]
+          },
+          {
+            "name": "Backend & Cloud",
+            "skills": [
+              { "name": "Node.js", "slug": "nodedotjs" },
+              { "name": "FastAPI", "slug": "fastapi" },
+              { "name": "Docker", "slug": "docker" },
+              { "name": "Google Cloud", "slug": "googlecloud" }
+            ]
+          },
+          {
+            "name": "Frontend",
+            "skills": [
+              { "name": "Next.js", "slug": "nextdotjs" },
+              { "name": "React", "slug": "react" },
+              { "name": "Tailwind CSS", "slug": "tailwindcss" }
+            ]
+          },
+          {
+            "name": "Databases",
+            "skills": [
+              { "name": "PostgreSQL", "slug": "postgresql" },
+              { "name": "MongoDB", "slug": "mongodb" },
+              { "name": "Supabase", "slug": "supabase" },
+              { "name": "Redis", "slug": "redis" }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "project",
+      "title": "Flow Sentinel",
+      "data": {
+        "name": "Flow Sentinel",
+        "link": "https://flow-sentinel.netlify.app",
+        "subtitle": "Autonomous DeFi Yield Protocol",
+        "body": [
+          "Built and deployed an autonomous DeFi yield protocol on Flow blockchain enabling self-managed vaults with liquid staking, yield farming, and arbitrage strategies.",
+          "Engineered a 4-layer MEV protection framework combining commit-reveal execution, VRF-randomized delays, price-deviation guards, and execution-queue randomization.",
+          "Authored 9 production-grade Cadence smart contracts with secure vault architecture, oracle-integrated analytics, and dual wallet support (Flow Wallet & MetaMask).",
+          "Selected for the Flow Grant DAO on DoraHacks, securing $300 in funding (10,000 $FLOW) from Flow Blockchain to develop the protocol into a production-ready decentralized application."
+        ]
+      }
+    },
+    {
+      "type": "project",
+      "title": "AgentMD",
+      "data": {
+        "name": "AgentMD",
+        "link": "https://agent-dot-md.netlify.app",
+        "subtitle": "AI Engineering Preset Platform",
+        "body": [
+          "Built an AI engineering platform offering 150+ production-ready presets across 19 categories, standardizing AI engineering workflows for development teams.",
+          "Developed a cross-editor extension for VS Code, Cursor, and Kiro with preset discovery, live preview, one-click installation, and automatic project-stack detection.",
+          "Engineered a zero-setup NPX CLI for installing individual presets or full categories directly into any developer project.",
+          "Designed a modular architecture supporting extensible preset registries, AI workflow automation, and frictionless developer onboarding."
+        ]
+      }
+    },
+    {
+      "type": "project",
+      "title": "GhostPay",
+      "data": {
+        "name": "GhostPay",
+        "link": "https://ghost-pay-deepsurge.vercel.app",
+        "subtitle": "Privacy-First Web3 Payment Platform",
+        "body": [
+          "Built a privacy-first Web3 payment platform enabling seamless digital payments through embedded wallets and gasless onboarding.",
+          "Integrated Google OAuth, the Sui SDK, and mysten/dapp-kit with secure wallet abstraction to simplify Web3 onboarding for non-crypto-native users.",
+          "Implemented decentralized document storage using Walrus alongside secure payment workflows and identity verification.",
+          "Designed modular payment infrastructure supporting programmable transactions, AI-agent integrations, and scalable Web3 commerce."
+        ]
+      }
+    },
+    {
+      "type": "project",
+      "title": "Argus",
+      "data": {
+        "name": "Argus",
+        "link": "https://argus-signoz.netlify.app",
+        "subtitle": "Blockchain Observability & Security Platform",
+        "body": [
+          "Built a blockchain observability and security platform for real-time monitoring of smart contract execution.",
+          "Developed transaction-analysis pipelines to detect anomalous behavior, exploit patterns, and security risks on-chain.",
+          "Integrated SigNoz for distributed tracing, metrics collection, and operational monitoring across blockchain services.",
+          "Implemented scalable backend services in Go with modular APIs and containerized deployment."
+        ]
+      }
+    },
+    {
+      "type": "expandableCard",
+      "title": "Hackathons & Grants",
+      "data": {
+        "heading": "Awards and Achievements",
+        "collapsedHeight": "max-h-48",
+        "body": [
+          {
+            "list": [
+              "**Winner, HackEMinds 2025**; Top 10, PL Genesis: Frontiers Hackathon; 3rd Place, Hack for Hope; 4th Place, PortXFolio Hackathon.",
+              "Won **$575 (Dual-Track Award)** at the MetaMask & Solana Hackathon, including 3rd Place in the Tokenization of Real-World Assets & Digital Identity track.",
+              "**Top 5 Team**, Flow Grant DAO (DoraHacks) \u2014 received $300 (10,000 $FLOW) in funding from Flow Blockchain for Flow Sentinel.",
+              "**Top 8 Team**, OneHack 2025 (DoraHacks) \u2014 secured a $1,000 grant from OneChain for a tokenized Real-World Asset marketplace.",
+              "Built the backend (Node.js, Express.js) for Paradox Nimbus, a picture-to-word guessing game played by 200+ students at NIT Hamirpur's annual tech fest."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "education",
+      "title": "Education",
+      "data": {
+        "items": [
+          {
+            "title": "National Institute of Technology Hamirpur",
+            "role": "Bachelor of Technology",
+            "body": [
+              "2024 \u2013 2028"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "contact",
+      "title": "Get in Touch",
+      "data": {
+        "heading": "Let's build something together",
+        "subheading": "open to opportunities, collaborations, and good conversations.",
+        "ctas": [
+          {
+            "label": "Email me",
+            "href": "mailto:aadityaofficial1515@gmail.com",
+            "icon": "mail",
+            "primary": true
+          }
+        ],
+        "socialsLabel": "Find me on"
+      }
+    }
+  ]
+}

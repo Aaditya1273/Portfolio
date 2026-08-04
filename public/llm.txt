@@ -1,0 +1,125 @@
+# Aaditya Rawat
+/ɑːˈdɪtjə ˈrɑːwət/ • noun
+
+## About
+
+A Full-Stack & AI Agent Engineer who ships production software rather than solving isolated puzzles.
+
+Experienced in building Web3 & blockchain infrastructure, autonomous DeFi protocols, and AI agent tooling.
+
+## Experience & Open Source
+
+### Rapid7 Metasploit Framework
+**Open-Source Contributor, Remote**
+*Oct 2025 - Present*
+
+Contributed production-quality improvements to the Metasploit Framework, enhancing network protocol handling, RPC services, and framework maintainability.
+
+Developed unit tests and merged multiple pull requests into the production open-source codebase.
+
+### Django CMS
+**Open-Source Contributor**
+
+Hacktoberfest participant (Oct 2025 – Dec 2025).
+
+Developed integration and regression tests to ensure reliable middleware behavior and long-term framework stability.
+
+### Various Open-Source Projects
+**Contributor**
+
+Merged 3 pull requests across open-source projects spanning Python, Solidity, and TypeScript ecosystems.
+
+Contributed 500+ lines of code, including real-time network protocol handling and blockchain contract version-history retrieval features.
+
+### .EXE Technical Club
+**Volunteer**
+
+Contributed to initiatives that helped the club win the Best Technical Club award at Nimbus 2025.
+
+Collaborated on a cybersecurity project with fellow club members.
+
+## Shipped Products
+
+### Flow Sentinel
+**Autonomous DeFi Yield Protocol**
+[https://flow-sentinel.netlify.app](https://flow-sentinel.netlify.app)
+
+Built and deployed an autonomous DeFi yield protocol on Flow blockchain enabling self-managed vaults with liquid staking, yield farming, and arbitrage strategies.
+
+Engineered a 4-layer MEV protection framework combining commit-reveal execution, VRF-randomized delays, price-deviation guards, and execution-queue randomization.
+
+Authored 9 production-grade Cadence smart contracts with secure vault architecture, oracle-integrated analytics, and dual wallet support (Flow Wallet & MetaMask).
+
+Selected for the Flow Grant DAO on DoraHacks, securing $300 in funding (10,000 $FLOW) from Flow Blockchain to develop the protocol into a production-ready decentralized application.
+
+### AgentMD
+**AI Engineering Preset Platform**
+[https://agent-dot-md.netlify.app](https://agent-dot-md.netlify.app)
+
+Built an AI engineering platform offering 150+ production-ready presets across 19 categories, standardizing AI engineering workflows for development teams.
+
+Developed a cross-editor extension for VS Code, Cursor, and Kiro with preset discovery, live preview, one-click installation, and automatic project-stack detection.
+
+Engineered a zero-setup NPX CLI for installing individual presets or full categories directly into any developer project.
+
+Designed a modular architecture supporting extensible preset registries, AI workflow automation, and frictionless developer onboarding.
+
+### GhostPay
+**Privacy-First Web3 Payment Platform**
+[https://ghost-pay-deepsurge.vercel.app](https://ghost-pay-deepsurge.vercel.app)
+
+Built a privacy-first Web3 payment platform enabling seamless digital payments through embedded wallets and gasless onboarding.
+
+Integrated Google OAuth, the Sui SDK, and mysten/dapp-kit with secure wallet abstraction to simplify Web3 onboarding for non-crypto-native users.
+
+Implemented decentralized document storage using Walrus alongside secure payment workflows and identity verification.
+
+Designed modular payment infrastructure supporting programmable transactions, AI-agent integrations, and scalable Web3 commerce.
+
+### Argus
+**Blockchain Observability & Security Platform**
+[https://argus-signoz.netlify.app](https://argus-signoz.netlify.app)
+
+Built a blockchain observability and security platform for real-time monitoring of smart contract execution.
+
+Developed transaction-analysis pipelines to detect anomalous behavior, exploit patterns, and security risks on-chain.
+
+Integrated SigNoz for distributed tracing, metrics collection, and operational monitoring across blockchain services.
+
+Implemented scalable backend services in Go with modular APIs and containerized deployment.
+
+## Hackathons & Grants
+
+### Awards and Achievements
+
+* **Winner, HackEMinds 2025**; Top 10, PL Genesis: Frontiers Hackathon; 3rd Place, Hack for Hope; 4th Place, PortXFolio Hackathon.
+* Won **$575 (Dual-Track Award)** at the MetaMask & Solana Hackathon, including 3rd Place in the Tokenization of Real-World Assets & Digital Identity track.
+* **Top 5 Team**, Flow Grant DAO (DoraHacks) — received $300 (10,000 $FLOW) in funding from Flow Blockchain for Flow Sentinel.
+* **Top 8 Team**, OneHack 2025 (DoraHacks) — secured a $1,000 grant from OneChain for a tokenized Real-World Asset marketplace.
+* Built the backend (Node.js, Express.js) for Paradox Nimbus, a picture-to-word guessing game played by 200+ students at NIT Hamirpur's annual tech fest.
+
+## Education
+
+### National Institute of Technology Hamirpur
+**Bachelor of Technology**
+
+2024 – 2028
+
+## Tech Stack
+
+Python, Go, TypeScript, JavaScript, Solidity, LLM Engineering, Multi-Agent Systems, n8n Automation, Ethereum, Chainlink, MetaMask, Node.js, FastAPI, Docker, Google Cloud, Next.js, React, Tailwind CSS, PostgreSQL, MongoDB, Supabase, Redis
+
+## Get in Touch
+
+### Let's build something together
+
+open to opportunities, collaborations, and good conversations.
+
+Connect with me on LinkedIn or shoot an email.
+
+---
+
+**Links:**
+- GitHub: https://github.com/aadityarawat
+- LinkedIn: https://www.linkedin.com/in/aadityarawat/
+- X: https://x.com/aadityarawat
