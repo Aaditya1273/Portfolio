@@ -60,45 +60,56 @@
       }
     },
     {
-      "type": "experience",
-      "title": "Experience & Open Source",
+      "type": "openSource",
+      "title": "Open Source & Contributions",
       "data": {
-        "featured": {
-          "name": "Rapid7 Metasploit Framework",
-          "role": "Open-Source Contributor, Remote",
-          "dateRange": "Oct 2025 - Present",
-          "collapsedHeight": "max-h-48",
-          "body": [
-            "Contributed production-quality improvements to the Metasploit Framework, enhancing network protocol handling, RPC services, and framework maintainability.",
-            "Developed unit tests and merged multiple pull requests into the production open-source codebase."
-          ]
-        },
-        "previousLabel": "Other Experience",
-        "previous": [
+        "items": [
+          {
+            "name": "Metasploit Framework",
+            "role": "Open-Source Contributor",
+            "period": "Oct 2025 – Present",
+            "location": "Remote",
+            "link": "https://github.com/rapid7/metasploit-framework",
+            "tags": ["Ruby", "Network Protocols", "RPC", "Security"],
+            "prs": 3,
+            "body": [
+              "Contributed production-quality improvements to the Rapid7 Metasploit Framework, enhancing network protocol handling, RPC services, and framework maintainability.",
+              "Developed unit tests and merged multiple pull requests into the production open-source codebase."
+            ]
+          },
           {
             "name": "Django CMS",
             "role": "Open-Source Contributor",
+            "period": "Oct 2025 – Dec 2025",
             "location": "Remote",
+            "link": "https://github.com/django-cms/django-cms",
+            "tags": ["Python", "Django", "Testing", "Middleware", "Hacktoberfest"],
+            "prs": 2,
             "body": [
-              "Hacktoberfest participant (Oct 2025 \u2013 Dec 2025).",
+              "Hacktoberfest participant contributing to one of the largest Python CMS projects.",
               "Developed integration and regression tests to ensure reliable middleware behavior and long-term framework stability."
             ]
           },
           {
-            "name": "Various Open-Source Projects",
+            "name": "Open-Source Misc",
             "role": "Contributor",
+            "period": "2025",
             "location": "Remote",
+            "tags": ["Python", "Solidity", "TypeScript"],
+            "prs": 3,
             "body": [
-              "Merged 3 pull requests across open-source projects spanning Python, Solidity, and TypeScript ecosystems.",
-              "Contributed 500+ lines of code, including real-time network protocol handling and blockchain contract version-history retrieval features."
+              "Merged 3 pull requests across projects spanning Python, Solidity, and TypeScript ecosystems.",
+              "Contributed 500+ lines of code including real-time network protocol handling and blockchain contract version-history retrieval features."
             ]
           },
           {
             "name": ".EXE Technical Club",
             "role": "Volunteer",
+            "period": "2024 – Present",
             "location": "NIT Hamirpur",
+            "tags": ["Cybersecurity", "Community", "NIT Hamirpur"],
             "body": [
-              "Contributed to initiatives that helped the club win the Best Technical Club award at Nimbus 2025.",
+              "Contributed to initiatives that helped the club win the **Best Technical Club** award at Nimbus 2025.",
               "Collaborated on a cybersecurity project with fellow club members."
             ]
           }
@@ -172,6 +183,7 @@
         "items": [
           {
             "name": "Flow Sentinel",
+            "logo": "/logos/flow-sentinel.png",
             "subtitle": "Autonomous DeFi Yield Protocol",
             "link": "https://flow-sentinel.netlify.app",
             "tags": ["Cadence", "Flow Blockchain", "DeFi", "Solidity", "DoraHacks"],
@@ -190,6 +202,7 @@
           },
           {
             "name": "AgentMD",
+            "logo": "/logos/agent.md.png",
             "subtitle": "AI Engineering Preset Platform",
             "link": "https://agent-dot-md.netlify.app",
             "tags": ["AI Agents", "VS Code", "Cursor", "Kiro", "CLI", "TypeScript"],
@@ -208,6 +221,7 @@
           },
           {
             "name": "GhostPay",
+            "logo": "/logos/ghostpay.png",
             "subtitle": "Privacy-First Web3 Payment Platform",
             "link": "https://ghost-pay-deepsurge.vercel.app",
             "tags": ["Sui SDK", "Web3", "Google OAuth", "Walrus", "TypeScript"],
@@ -220,6 +234,7 @@
           },
           {
             "name": "Argus",
+            "logo": "/logos/argus.png",
             "subtitle": "Blockchain Observability & Security Platform",
             "link": "https://argus-signoz.netlify.app",
             "tags": ["Go", "SigNoz", "Blockchain", "Docker", "Security"],

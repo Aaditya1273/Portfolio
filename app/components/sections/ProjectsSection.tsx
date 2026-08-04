@@ -9,6 +9,7 @@ import type { Block } from "../types";
 export interface ProjectItem {
   name: string;
   subtitle?: string;
+  logo?: string;
   link?: string;
   downloadUrl?: string;
   downloadLabel?: string;
@@ -39,12 +40,22 @@ export function ProjectsSection({
           <button
             key={item.name}
             onClick={() => setActive(i)}
-            className={`rounded-full border px-4 py-1.5 text-sm font-medium transition-all duration-200 ${
+            className={`inline-flex items-center gap-2 rounded-full border px-3.5 py-1.5 text-sm font-medium transition-all duration-200 ${
               i === active
                 ? "border-black bg-black text-white dark:border-white dark:bg-white dark:text-black"
                 : "border-gray-200 bg-transparent text-gray-500 hover:border-gray-400 hover:text-black dark:border-gray-700 dark:text-gray-400 dark:hover:border-gray-500 dark:hover:text-white"
             }`}
           >
+            {item.logo && (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img
+                src={item.logo}
+                alt=""
+                className={`h-4 w-4 rounded-sm object-contain ${
+                  i === active ? "brightness-0 invert dark:brightness-100 dark:invert-0" : ""
+                }`}
+              />
+            )}
             {item.name}
           </button>
         ))}
@@ -57,28 +68,39 @@ export function ProjectsSection({
       >
         {/* Header */}
         <div className="mb-5 flex flex-wrap items-start justify-between gap-4">
-          <div className="flex flex-col gap-1">
-            <div className="flex flex-wrap items-center gap-2">
-              <span className="text-lg font-semibold text-black dark:text-white">
-                {project.name}
-              </span>
-              {project.link && (
-                <a
-                  href={project.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={`Visit ${project.name}`}
-                  className="text-gray-400 hover:text-black dark:hover:text-white transition-colors"
-                >
-                  <ExternalLink className="h-4 w-4" />
-                </a>
+          <div className="flex items-start gap-3">
+            {project.logo && (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img
+                src={project.logo}
+                alt={project.name}
+                className="mt-0.5 h-10 w-10 shrink-0 rounded-xl object-contain border border-gray-100 dark:border-gray-800 p-1 bg-white dark:bg-gray-900"
+                loading="lazy"
+              />
+            )}
+            <div className="flex flex-col gap-1">
+              <div className="flex flex-wrap items-center gap-2">
+                <span className="text-lg font-semibold text-black dark:text-white">
+                  {project.name}
+                </span>
+                {project.link && (
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={`Visit ${project.name}`}
+                    className="text-gray-400 hover:text-black dark:hover:text-white transition-colors"
+                  >
+                    <ExternalLink className="h-4 w-4" />
+                  </a>
+                )}
+              </div>
+              {project.subtitle && (
+                <span className="text-xs font-medium text-gray-400 dark:text-gray-500">
+                  {project.subtitle}
+                </span>
               )}
             </div>
-            {project.subtitle && (
-              <span className="text-xs font-medium text-gray-400 dark:text-gray-500">
-                {project.subtitle}
-              </span>
-            )}
           </div>
 
           {/* Action buttons */}
