@@ -8,13 +8,13 @@ import { CodeBlock } from "../components/docs/CodeBlock";
 import { PromptCard } from "../components/docs/PromptCard";
 
 export const metadata: Metadata = {
-  title: "Docs — Hackyfolio",
+  title: "Docs — PortfolioOSS",
   description: "How to build and customize a JSON-driven portfolio.",
 };
 
-const REPO_URL = "https://github.com/PythonHacker24/yo-hackyfolio";
+const REPO_URL = "https://github.com/Aaditya1273/portfolio";
 
-const SETUP_PROMPT = `You are helping me build my personal portfolio website from an open-source template called Hackyfolio. It is a Next.js site where ALL content lives in ONE JSON file (app/data/portfolio.json) and fixed components render it. I should only ever edit that JSON, never the component code.
+const SETUP_PROMPT = `You are helping me build my personal portfolio website from an open-source template called portfolioOSS. It is a Next.js site where ALL content lives in ONE JSON file (app/data/portfolio.json) and fixed components render it. I should only ever edit that JSON, never the component code.
 
 Work through these steps in order:
 
@@ -105,7 +105,7 @@ export default function DocsPage() {
         </Link>
 
         <div className="mb-4 flex flex-wrap items-end gap-x-3 gap-y-1">
-          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">Hackyfolio</h1>
+          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">PortfolioOSS</h1>
           <span className="mb-1.5 text-xs font-bold uppercase tracking-widest text-gray-400 dark:text-gray-500">
             Documentation
           </span>
@@ -148,7 +148,7 @@ export default function DocsPage() {
         <DocSection id="purpose" title="What is this">
           <p>
             Most portfolios mix content and code, so changing a job title means digging through
-            JSX. Hackyfolio splits them apart. All your content lives in a single data file. A set
+            JSX. PortfolioOSS splits them apart. All your content lives in a single data file. A set
             of fixed components reads that file and renders the page.
           </p>
           <p>The result: you edit text, not code. And it ships with two views.</p>
@@ -175,7 +175,7 @@ export default function DocsPage() {
           </p>
           <CodeBlock label="terminal">{`# clone the repo
 git clone ${REPO_URL}.git
-cd yo-hackyfolio
+cd portfolio
 
 # install dependencies
 npm install

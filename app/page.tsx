@@ -66,16 +66,18 @@ export default function Home() {
         <ThemeToggle />
       </div>
 
-      {/* Open-source badge, tucked in the lower-right corner */}
-      <Link
-        href="/docs"
-        title="This portfolio is open source. Build your own with JSON using your AI editor. Read the docs."
+      {/* Hackfoliyo open-source badge, tucked in the lower-right corner */}
+      <a
+        href="https://github.com/Aaditya1273/Portfolio"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="Hackfoliyo - Open Source Portfolio Template"
         className="group fixed bottom-24 right-4 z-40 inline-flex items-center gap-1.5 rounded-full border border-gray-200 dark:border-zinc-700 bg-white/70 dark:bg-zinc-900/80 px-2.5 py-2 text-xs font-medium text-gray-500 shadow-sm backdrop-blur-md transition-colors hover:text-black dark:text-gray-400 dark:hover:text-white sm:bottom-6 sm:right-6 sm:px-3"
       >
         <Code2 className="h-4 w-4" />
-        <span className="hidden sm:inline">Open source</span>
+        <span className="hidden sm:inline">Hackfoliyo</span>
         <ArrowUpRight className="h-3 w-3 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-      </Link>
+      </a>
 
       <AnimatePresence mode="wait">
         {mode === "agent" ? (
